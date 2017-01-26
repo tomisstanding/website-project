@@ -1,0 +1,71 @@
+
+<link href="style.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Bungee Shade" rel="stylesheet" type='text/css'>
+  body {
+      background-color: white;
+  }
+    header {
+      background: url('http://i.imgur.com/4dknRDW.jpg?3');
+      background-size: cover; 
+      margin: 0 auto;
+      padding-top: 420px;
+
+    }
+    h2 {
+      font-family: 'Bungee Shade', cursive;
+      text-align: center;
+    }
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      font-family: Copperplate,Copperplate Gothic Light,fantasy;
+
+    }
+    p {
+      font-family: Copperplate,Copperplate Gothic Light,fantasy;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.3);
+      text-align: center;
+      font-family: 'Bungee Shade', cursive;
+      text-decoration: underline;
+    }
+    a {  
+      color: white;
+    }
+    footer {
+      text-align: center;
+      background: url('http://medias.photodeck.com/dcd4ffc4-8ee3-4f96-a4c2-acf73c4401e5/140613-0058_AUSTIN__TEXAS_xgaplus.jpg');
+      color: rgba(1,2,1,0.8); 
+      padding: 3px 0;
+      width: 100%;
+      font-family: Copperplate,Copperplate Gothic Light,fantasy;
+      margin: 0 auto;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      font-family: 'Bungee Shade', cursive;
+    }
+    ul li a {
+      display:inline;
+    }
+    ul li a:hover, ul li a:active, ul li a:focus {
+      color: yellow;
+    }
+    article {
+      max-width: 5000px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+      font-size: 50px;
+      padding: 5px;
+      }
+      li {
+      padding: 5px;
+      display: block;
+      }
+    }

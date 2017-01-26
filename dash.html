@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+  body {
+    background-color: orange;
+  }
+    header {
+      text-align: center;
+      background: url('http://creativeregion.org/wp-content/uploads/2016/03/welcome-to-historic-sixth-street-medium-size-m.jpg');
+      background-size: cover;
+      color: rgba(1,2,1,0.8); 
+    }
+    a {
+      color: white; 
+    }
+    h1 {
+      font-size: 100px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 2px solid white;
+      border-radius: 90px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.7);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 50px;
+        padding: 5px;
+        font-style: italic;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+<head>
+<h1>Toms Blog</h1>
+</head>
+  <header>
+    <h1>Toms Blog</h1>
+    <ul>
+      <li><a href="#">Best Music Venues</a></li>
+      <li><a href="#">Best Restaurants</a></li>
+      <li><a href="#">Best Parks</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Welcome To Austin, Texas</h2>
+    <p>Home of the best bar-b-q and cheap beer. Or so I think anyways, but what do I know.. Check out my list for the best places in town to kick up your feet and catch a show, or travel to zilker park or town lake to go for a stroll or go padle boarding.</p>
+    <h3>You are going to wish you moved here</h3>
+ <p>Here in Austin, we like to move fast and drink slow. Check out my list for the best retaurants in town to grab a great bowl of Texas chilli or head over to Trudy's for a Texas martini and some chips and salsa, you will thank me later!
+    <h3>Ready to watch a live performance already? maybe catch a Led Zeppelin cover band? Who know's what could happen!</h3>
+    <p>That's right kids don't forget your stompin shoes, cause when your in Austin you are going to want to head to Stubb's BBQ to catch some of the best acts in the world perform, and they have bbq... duh. Or check out The Continental Club and listen to some sweet Texas blues anytime you want. Whatever your flavor is I got the best place for you.</p>
+    <button>Like</button>
+  <script>
+    $("button").on("click", function() {
+      alert("Thanks!");
+    });
+  </script>
+</body>
+
